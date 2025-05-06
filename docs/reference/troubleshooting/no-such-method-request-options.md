@@ -21,7 +21,7 @@ To solve this issue, you have to add the `elasticsearch-rest-client` dependency 
 Using Gradle:
 
 ```groovy subs=true
-implementation 'org.elasticsearch.client:elasticsearch-rest-client:{{version}}'
+implementation 'org.elasticsearch.client:elasticsearch-rest-client:{{stack-version}}'
 ```
 
 Using Maven:
@@ -30,6 +30,6 @@ Using Maven:
 <dependency>
     <groupId>org.elasticsearch.client</groupId>
     <artifactId>elasticsearch-rest-client</artifactId>
-    <version>{{version}}</version>
+    <version>{{stack-version}}</version>
 </dependency>
 ```

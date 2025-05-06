@@ -20,7 +20,7 @@ Here is how you can configure the dependency using maven as a dependency manager
 <dependency>
     <groupId>org.elasticsearch.client</groupId>
     <artifactId>elasticsearch-rest-client-sniffer</artifactId>
-    <version>{{version}}</version>
+    <version>{{stack-version}}</version>
 </dependency>
 ```
 
@@ -31,7 +31,7 @@ Here is how you can configure the dependency using gradle as a dependency manage
 
 ```groovy subs=true
 dependencies {
-    compile 'org.elasticsearch.client:elasticsearch-rest-client-sniffer:{{version}}'
+    compile 'org.elasticsearch.client:elasticsearch-rest-client-sniffer:{{stack-version}}'
 }
 ```
 

@@ -8,5 +8,5 @@ mapped_pages:
 :::{include} /reference/_snippets/legacy-rest-client.md
 :::
 
-The javadoc for the low level REST client can be found at [https://snapshots.elastic.co/javadoc/org/elasticsearch/client/elasticsearch-rest-client/{{version}}/](https://snapshots.elastic.co/javadoc/org/elasticsearch/client/elasticsearch-rest-client/{{version}}/).
+The javadoc for the low level REST client can be found at [https://snapshots.elastic.co/javadoc/org/elasticsearch/client/elasticsearch-rest-client/{{stack-version}}/](https://snapshots.elastic.co/javadoc/org/elasticsearch/client/elasticsearch-rest-client/{{stack-version}}/).
 

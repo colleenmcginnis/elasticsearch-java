@@ -17,7 +17,7 @@ Releases are hosted on [Maven Central](https://search.maven.org/search?q=g:co.el
 
 ```groovy subs=true
 dependencies {
-    implementation 'co.elastic.clients:elasticsearch-java:{{version}}'
+    implementation 'co.elastic.clients:elasticsearch-java:{{stack-version}}'
 }
 ```
 
@@ -33,7 +33,7 @@ In the `pom.xml` of your project, add the following repository definition and de
     <dependency>
       <groupId>co.elastic.clients</groupId>
       <artifactId>elasticsearch-java</artifactId>
-      <version>{{version}}</version>
+      <version>{{stack-version}}</version>
     </dependency>
 
   </dependencies>
